@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        .container{
+            display: flex;
+            flex-direction: column-reverse;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .box{
+         width: 60px;
+         height: 60px;
+        }
+        
+        .box1 {
+            background: black;
+            animation: moveright 2s ease-in-out infinite alternate;
+        }
+        @keyframes moveright {
+            from{transform: translateX(0);}
+            to{transform: translateX(100px);}
+        }
+
+
+        .box2 {
+            background: pink;
+            animation: scalebox 1.5s ease-in-out infinite alternate;
+        }
+        @keyframes scalebox {
+            from{transform: scale(0);}
+            to{transform: scale(1.1);}
+        }
+
+
+        .box3 {
+            background: blueviolet;
+            animation: spin 2s linear infinite ;
+        }
+        @keyframes spin {
+            from{transform: rotate(0deg);}
+            to{transform: rotate(340deg);}
+        }
+
+
+        .box4 {
+            background: orange;
+            animation: colourchange 2s ease-in-out infinite alternate;
+        }
+        @keyframes colourchange {
+            0%{ background-color: orange;}
+            40%{ background-color: yellow;}
+            50%{ background-color: red;}
+            100%{ background-color: purple;}
+        }
+
+
+        .box5 {
+            background: blueviolet;
+            animation: bounce 1s ease-in-out infinite ;
+        }
+        @keyframes bounce {
+            0%{transform: translatey(0);}
+            50%{transform: translateY(-70px);}
+            100%{transform: translatey(100px);}
+        }
+
+    </style>
+</head>
+<body>
+    <h2>Multiple boxes with different animation</h2>
+    <div class="container">
+        <div class="box box1"></div>
+        <div class="box box2"></div>
+        <div class="box box3"></div>
+        <div class="box box4"></div>
+        <div class="box box5"></div>
+        
+    </div>
+</body>
+</html>

@@ -1,0 +1,42 @@
+.maindiv{
+    width: 100%;
+  background: red;
+    height: 50vh;
+    background-image: url(https://i.pinimg.com/236x/c2/ae/63/c2ae63f98b77282ec28614d4ddb66899.jpg);
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-position: right bottom;
+
+}
+
+.sub{
+    width: 50%;
+    height: 100px;
+    /* background: linear-gradient(360deg,yellow,green); */
+    background: radial-gradient(circle,blue,purple);
+    box-shadow: 2px 4px 8px green;
+}
+
+.font{
+    /* font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+    font-style: oblique; */
+    font-variant: small-caps;
+    font: italic bolder 30px Arial, Helvetica, sans-serif;
+    color: brown;
+
+    /* text properties */
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-shadow: 2px 4px 8px black;
+    text-indent: 12%;
+    text-decoration-color: blue;
+    text-decoration-style: wavy;
+    text-decoration-thickness:4px ;
+    
+    
+}
+
+

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: azure;
+        }
+        .container{
+            display: flex;
+            gap: 30px;
+            justify-content: center;
+            height: 455px;
+            align-items: center;
+        }
+
+        .card{
+            box-shadow: 0px 5px 15px ;
+            width: 150px;
+            height: 300px;
+            padding: 22px;
+            border-radius: 10px;
+            text-align: center;
+            transition: 1s ease;
+        }
+
+        button{
+            background: blue;
+            color: aliceblue;
+            width: 100px;
+            height: 30px;
+            border-radius: 5px;
+            border: none;
+            transition: 1s;
+
+        }
+
+        .card:hover{
+            transform: translateY(-50px);
+        }
+
+        button:hover{
+           transform: scale(1.2);
+        }
+    </style>
+</head>
+<body>
+    <h1>our products</h1>
+    <div class="container">
+        <div class="card">
+            <img src="shoes.jpg" alt="" width="150">
+            <h3>Runing Shoes</h3>
+            <p><b>₹1,499</b></p>
+            <button>Buy now</button>
+        </div>
+
+        <div class="card">
+            <img src="watch.jpg" alt="" width="150" height="150">
+            <h3>Runing Shoes</h3>
+            <p><b>₹1,499</b></p>
+            <button>Buy now</button>
+        </div>
+
+        <div class="card">
+            <img src="headset.jpg" alt="" width="150" height="150">
+            <h3>Runing Shoes</h3>
+            <p><b>₹1,499</b></p>
+            <button>Buy now</button>
+        </div>
+        
+    </div>
+</body>
+</html>

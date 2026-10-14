@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    img {
+        width: 150px;
+        height: 300px;
+    }
+    .drop{
+            animation: moveing 2s ease-out infinite;
+            margin-top: -50%;
+            margin-bottom: 100%;
+        }
+         @keyframes moveing{
+         0%{
+            transform: translatey(0%);
+         }
+         100%{
+            transform: translatey(100vh);
+         }
+        }
+</style>
+<body>
+    <div class="drop">
+        <img src="apple.jpg" alt="">
+
+    </div>
+</body>
+</html>

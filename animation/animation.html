@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .move{
+            animation: moveing 5s ease-in 4;
+            margin-top: 50%;
+        }
+
+        @keyframes moveing{
+         0%{
+            transform: translateX(0%);
+         }
+         100%{
+            transform: translateX(100%);
+         }
+        }
+        .road{
+            width: 100%;
+            height: 100px;
+            background: linear-gradient(black,rgb(166,164,164));
+        }
+
+        img{
+            width: 250px;
+            height: 150px;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="move">
+        <img src="mr_bean-removebg-preview.png" alt="">
+    </div>
+
+    <div class="road"></div>
+</body>
+</html>

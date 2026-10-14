@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            width: 100px;
+            height: 100px;
+            border-radius: 10px;
+            transition: 1s ease;
+        }
+        .container{
+            display: flex;
+            gap: 20px;
+            height: 400px;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .box1{
+            background: red;
+        }
+
+        .box1:hover{
+            transform: translateX(100px);
+        }
+
+        .box2{
+            background: green;
+        }
+        
+        .box2:hover{
+            transform: scale(1.4);
+        }
+
+        .box3{
+            background: yellow;
+        }
+        
+        .box3:hover{
+            transform: rotate(240deg);
+        }
+
+        .box4{
+            background: orange;
+        }
+        
+        .box4:hover{
+            background-color: bisque;
+        }
+
+        .box5{
+            background: yellow;
+        }
+        
+        .box5:hover{
+            transform: translate(240deg);
+        }
+        
+
+    </style>
+</head>
+<body>
+    <h2>Hover box with different animation</h2>
+    <div class="container">
+        <div class="box box1"></div>
+        <div class="box box2"></div>
+        <div class="box box3"></div>
+        <div class="box box4"></div>
+        <div class="box box5"></div>
+        
+    </div>
+</body>
+</html>

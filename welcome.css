@@ -1,0 +1,32 @@
+.main{
+    background: linear-gradient(90deg,black, rgb(83, 55, 14));
+
+    width: 100vw;
+    height: 100vh;
+    padding-top: 52px;
+}
+
+.sub{
+   background-color: beige;
+   width: 70%;
+   text-align: center;
+   height: 500px;
+   margin-left: 150px;
+   border-radius: 20px;
+ 
+}
+img{
+    width: 50vh;
+    height: 30vh;
+}
+.sub2{
+    width: 36vw;
+    background-color: #7c5e0b;
+    height: 6vh;
+    padding: 5px;
+    margin-left: 212px;
+    margin-top: 20px;
+    border-radius: 10px;
+
+    border-left: 10px solid black;
+}
